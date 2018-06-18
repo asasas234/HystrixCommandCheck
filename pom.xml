@@ -45,6 +45,21 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <!-- if you use public-release -->
+        <repository>
+            <id>releases</id>
+            <name>releases</name>
+            <url>http://maven.vipkid.com.cn/nexus/content/repositories/releases/</url>
+        </repository>
+        <!-- if you use snapshots. -->
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>snapshots</name>
+            <url>http://maven.vipkid.com.cn/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
