@@ -1,7 +1,7 @@
 这是1个在编译期检查@HystrixCommand 注解fallbackMethod 语法的工具
 
 使用方式：
-添加maven 依赖
+添加maven 依赖，同时这个依赖应该加在dev profile 下，其他profile 不应该有这个jar 包
 ```xml
 <dependency>
             <groupId>com.bobo</groupId>
