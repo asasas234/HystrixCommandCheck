@@ -14,3 +14,5 @@
 @HystrixCommandCheck
 ```
 目前主要检查，所有fallback 方法必须是私有的，并且返回类型和参数列表必须和声明@HystrixCommand 注解的方法保持一致
+最终效果：
+![image](img/img.png)
